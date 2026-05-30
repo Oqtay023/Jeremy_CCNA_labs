@@ -28,10 +28,11 @@ As you can see the password is stored in plain text which is not good for securi
 ![](R1-encrypting-password)
 
 We used "service password-encryption" command to encrypt the password. but this is not very strong. it can be solved in a few seconds.
+we also configure a password with "enable secret password".
 
-![]()
+![](using-secret-for-password.png)
+![](R1-encrypting-password.png)
 
-![]()
+Even tho we have 2 passwords when we try to enter privileged EXEC mode, we will only enter the password we set with "secret"
 
-![]()
 
